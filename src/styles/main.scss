@@ -1,0 +1,19 @@
+// Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+// Then import Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+body {
+  font-size: 16px;
+}
+#mainPage {
+  .header {
+    background-color: #19191A;
+    button {
+      background-color: #FF971D;
+
+    }
+  }
+}
