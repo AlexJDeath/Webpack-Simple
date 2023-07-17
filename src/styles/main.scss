@@ -2,18 +2,32 @@
 $primary: #900;
 $enable-shadows: true;
 $prefix: "mo-";
+$fontsize12: 0.75rem;
 
 // Then import Bootstrap
 @import "node_modules/bootstrap/scss/bootstrap";
+html {
+  font-size: 5vw;
+}
 body {
-  font-size: 16px;
+
 }
 #mainPage {
   .header {
     background-color: #19191A;
+    height: 15.625vw;
+    > div {
+      align-items: center;
+      display: flex;
+    }
     button {
       background-color: #FF971D;
-
+      width: 23.125vw;
+      height: 7.5vw;
+      border-radius: 3.75vw;
+      padding: 0;
+      color: white;
+      font-size: 0.75rem;
     }
   }
 }
